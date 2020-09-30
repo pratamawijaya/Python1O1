@@ -15,3 +15,8 @@ y[1] = "kiwi"
 example_tuples = tuple(y)
 
 print(example_tuples)
+
+# Loop tuple
+
+for i in example_tuples:
+    print("ini : {}".format(i))
